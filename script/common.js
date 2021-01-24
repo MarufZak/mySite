@@ -1,0 +1,1 @@
+"use strict";var btn=document.querySelector(".icon-burger"),menu=document.querySelector(".menu");btn.addEventListener("click",function(){menu.classList.contains("active")?(console.log(2),menu.classList.remove("active")):!menu.classList.contains("active")&&(menu.classList.add("active"),console.log(1))});
